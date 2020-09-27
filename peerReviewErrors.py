@@ -20,7 +20,7 @@ def chooseCave():
 	while cave != '1' and cave != '2':
 		print('Which cave will you go into? (1 or 2)')
 		cave = input()
-
+	return cave
 
 def checkCave(chosenCave):
 	print('You approach the cave...')
@@ -28,6 +28,7 @@ def checkCave(chosenCave):
 	time.sleep(2)
 	print('It is dark and spooky...')
 	#sleep for 2 seconds
+	time.sleep(2)
 	print('A large dragon jumps out in front of you! He opens his jaws and...')
 	print()
 	#sleep for 2 seconds
